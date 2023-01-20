@@ -16,3 +16,4 @@ my_fruit_list = my_fruit_list.set_index("Fruit");
 streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocados', 'Strawberries'])
 streamlit.dataframe(my_fruit_list);
 
+streamlet.write("test tekst");
